@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Number Guesser.unity
+  isLoaded: 1
+  isActive: 1
