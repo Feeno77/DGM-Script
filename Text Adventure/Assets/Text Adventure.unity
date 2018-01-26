@@ -229,7 +229,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1, y: 163}
+  m_AnchoredPosition: {x: 1, y: 163}
   m_SizeDelta: {x: 718.5, y: 62.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &501344480
@@ -395,6 +395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   textObject: {fileID: 2008307074}
+  titleText: {fileID: 501344480}
 --- !u!4 &1510845857
 Transform:
   m_ObjectHideFlags: 0
@@ -528,7 +529,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 24
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 1
