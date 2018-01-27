@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Adventure : MonoBehaviour {
 
     public enum States { cell, window, cellDoor, bed, searchBed, unlockedCellDoor,
-       hallway, left, right, fight, run, nurseStation, openWindow, jump };
+       hallway, left, right, fight, run, nurseStation, openWindow, jump, lose, win };
     public States currentState;
     public Text textObject;
     public Text titleText;
@@ -76,6 +76,14 @@ public class Adventure : MonoBehaviour {
         else if (currentState == States.jump)
         {
             Jump();
+        }
+        else if (currentState == States.lose)
+        {
+            Lose();
+        }
+        else if (currentState == States.win)
+        {
+            Win();
         }
 
 
@@ -154,9 +162,9 @@ public class Adventure : MonoBehaviour {
             "You slowly start twisting the key...\n" +
             "To your amazement, it turns the lock!\n" +
             "With an audible 'click' the Cell Door pops open.\n" +
-            "Press S to step out into Hallway, W for Window.";
+            "Press H to step out into Hallway, W for Window.";
         if (Input.GetKeyDown(KeyCode.W)) { currentState = States.window; }
-        if (Input.GetKeyDown(KeyCode.S)) { currentState = States.hallway; }
+        if (Input.GetKeyDown(KeyCode.H)) { currentState = States.hallway; }
     }
 
     private void Hallway()
@@ -183,28 +191,91 @@ public class Adventure : MonoBehaviour {
     }
     private void Right()
     {
-        if (Input.GetKeyDown(KeyCode.W)) { currentState = States.window; }
-        if (Input.GetKeyDown(KeyCode.C)) { currentState = States.unlockedCellDoor; }
+        titleText.text = "Right Hallway";
+        textObject.text = "You slink down the hallway to the Right.\n" +
+            "Up ahead, you see a Nurses station.\n" +
+            "Maybe there's some valuable things in there to help in your escape?\n" +
+            "But there's also a window, that looks like it might be cracked open.\n" +
+            "Where could it lead?\n" +
+            "Press N for Nurses Station, W for Window.";
+        if (Input.GetKeyDown(KeyCode.W)) { currentState = States.openWindow; }
+        if (Input.GetKeyDown(KeyCode.N)) { currentState = States.nurseStation; }
     }
     private void Fight()
     {
-        
+        titleText.text = "FIGHT!";
+        textObject.text = "You decide to fight the guards, even though you have no weapons.\n" +
+            "Maybe it's all the Bourne Identity movies you've watched.\n" +
+            "Or maybe you're just stupid.\n" +
+            "Either way, you're confident in your destructive power as you charge forward.\n" +
+            "One of the guards promptly pulls out pepper spray and sprays a lethal shot right into your face.\n" +
+            "Eyes watering, snot dripping from your nose, you cry like a little girl on the floor.\n" +
+            "Press C to Continue...";
+        if (Input.GetKeyDown(KeyCode.C)) { currentState = States.lose; }
     }
     private void Run()
     {
-
+        titleText.text = "RUN!";
+        textObject.text = "You know you don't stand a chance, so you decide to Run!\n" +
+            "You scramble to turn back around and take off running.\n" +
+            "The guards are hot on your heels!\n" +
+            "One of them pulls out a taser, and you hear a 'POP!'\n" +
+            "You feel the taser prongs plunge into your back, as 50,000 volts courses through your body.\n" +
+            "Wimpering and defeated, you writhe in agony on the floor.\n" +
+            "IT BUURRNNSS UUUSSSSS!!!\n" +
+            "Press C to Continue...";
+        if (Input.GetKeyDown(KeyCode.C)) { currentState = States.lose; }
     }
     private void Nurse()
     {
+        titleText.text = "Nurses Station";
+        textObject.text = "You decide to see if there's anything of value you can swipe in the Nurses Station.\n" +
+            "You walk over to the door, fairly confident that nobody will be inside.\n" +
+            "It's the middle of the night, nobody's working, right?\n" +
+            "WRONG! As if some programmer planned it in his head, a big burly female nurse is waiting there!\n" +
+            "With the strength of 1000 vikings, she sticks a needle in your neck and injects you with something.\n" +
+            "Your vision starts to blur, and the last thing you see is the floor rushing up to meet your face...\n" +
+            "Press C to Continue...";
+        if (Input.GetKeyDown(KeyCode.C)) { currentState = States.lose; }
 
+    }
+    private void Lose()
+    {
+        titleText.text = "You Lost :(";
+        textObject.text = "You were not able to escape this pit of despair...\n" +
+            "Would you like to try again?\n" +
+            "Press T to try again";
+        if (Input.GetKeyDown(KeyCode.T)) { currentState = States.cell; }
     }
     private void OpenWindow()
     {
-        if (Input.GetKeyDown(KeyCode.W)) { currentState = States.window; }
-        if (Input.GetKeyDown(KeyCode.C)) { currentState = States.unlockedCellDoor; }
+        titleText.text = "Open Window";
+        textObject.text = "You decide to play it safe and check out the Window.\n" +
+            "It looks as if someone forgot to close this window.\n" +
+            "You push it open further and peer outside... You can't see much.\n" +
+            "You think you can see the ground below, maybe 15 feet down.\n" +
+            "Should you jump?\n" +
+            "Press J to Jump, N for Nurses Station";
+        if (Input.GetKeyDown(KeyCode.J)) { currentState = States.jump; }
+        if (Input.GetKeyDown(KeyCode.N)) { currentState = States.nurseStation; }
     }
     private void Jump()
     {
-
+        titleText.text = "Geronimo!";
+        textObject.text = "You decide to jump, anything to get outta this place!\n" +
+            "Breathing heavily, you nervously stand in front of the window.\n" +
+            "'FOR THE SHIRE!' You yell, as you fling your body out into the darkness.\n" +
+            "Wind rushes agaisnt your face as you freefall down...\n" +
+            "Press C to Continue...";
+        if (Input.GetKeyDown(KeyCode.C)) { currentState = States.win; }
+    }
+    private void Win()
+    {
+        titleText.text = "YOU WIN!!";
+        textObject.text = "Right before you hit the ground, you suddenly jolt awake.\n" +
+            "You're sitting in a chair, with wires connected all over your body.\n" +
+            "Someone lifts a helmet visor off of your head, and you see men standing all around you.\n" +
+            "'Congratulations, Soilder. You passed the simulation' An old man says as he claps you on the shoulder.\n" +
+            "Welcome to Treadstone, Jason Bourne.";
     }
 }
