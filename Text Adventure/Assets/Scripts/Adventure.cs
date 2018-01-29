@@ -276,6 +276,8 @@ public class Adventure : MonoBehaviour {
             "You're sitting in a chair, with wires connected all over your body.\n" +
             "Someone lifts a helmet visor off of your head, and you see men standing all around you.\n" +
             "'Congratulations, Soilder. You passed the simulation' An old man says as he claps you on the shoulder.\n" +
-            "Welcome to Treadstone, Jason Bourne.";
+            "Welcome to Treadstone, Jason Bourne.\n" +
+            "Press P to Play again.";
+        if (Input.GetKeyDown(KeyCode.P)) { currentState = States.cell; }
     }
 }
