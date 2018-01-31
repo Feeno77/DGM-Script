@@ -232,7 +232,7 @@ public class Adventure : MonoBehaviour {
         textObject.text = "You decide to see if there's anything of value you can swipe in the Nurses Station.\n" +
             "You walk over to the door, fairly confident that nobody will be inside.\n" +
             "It's the middle of the night, nobody's working, right?\n" +
-            "WRONG! As if some programmer planned it in his head, a big burly female nurse is waiting there!\n" +
+            "WRONG! A big burly female nurse is standing right behind the door!\n" +
             "With the strength of 1000 vikings, she sticks a needle in your neck and injects you with something.\n" +
             "Your vision starts to blur, and the last thing you see is the floor rushing up to meet your face...\n" +
             "Press C to Continue...";
@@ -276,7 +276,7 @@ public class Adventure : MonoBehaviour {
             "You're sitting in a chair, with wires connected all over your body.\n" +
             "Someone lifts a helmet visor off of your head, and you see men standing all around you.\n" +
             "'Congratulations, Soilder. You passed the simulation' An old man says as he claps you on the shoulder.\n" +
-            "Welcome to Treadstone, Jason Bourne.\n" +
+            "Welcome to Treadstone.\n" +
             "Press P to Play again.";
         if (Input.GetKeyDown(KeyCode.P)) { currentState = States.cell; }
     }
