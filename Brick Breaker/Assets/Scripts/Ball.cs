@@ -4,18 +4,12 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour {
 
+    
+        public AudioClip hitSound;
 
-    [RequireComponent(typeof(AudioSource))]
-    public class ExampleClass : MonoBehaviour
-    {
-        public AudioClip clip;
-        void Start()
+    private void OnCollisionEnter2D(Collision2D collision)
         {
-            AudioSource.PlayClipAtPoint(clip, new Vector3(5, 1, 2));
+            AudioSource.PlayClipAtPoint(hitSound, collision.transform.position);
         }
-    }
-    // Update is called once per frame
-    void Update () {
-		
-	}
+     
 }
