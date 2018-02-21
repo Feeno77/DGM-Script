@@ -21,16 +21,19 @@ public class Paddle : MonoBehaviour {
         {
             paddlePosition.x = ball.transform.position.x;
         }
+
+
         else
         {
 
 
             //get mouse horizontal position
-            float mousePositionX = Input.mousePosition.x / Screen.width * 16 - 8;
+            float mousePositionInBlocks = Input.mousePosition.x / Screen.width * 16 - 8;
             //save new position
-            paddlePosition.x = mousePositionX;
+            paddlePosition.x = mousePositionInBlocks;
             //set paddle object to saved position 
-            this.gameObject.transform.position = paddlePosition;
+
         }
-	}
+        this.gameObject.transform.position = paddlePosition;
+    }
 }
