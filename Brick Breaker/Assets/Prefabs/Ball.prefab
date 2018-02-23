@@ -89,7 +89,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0063e06470be048b5cc087a4387793, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSound: {fileID: 8300000, guid: a1d810ae6ed85eb4aa492b0c9d5bcef0, type: 3}
+  hitSound: {fileID: 8300000, guid: c140b0233b7a361409bc464a65443497, type: 3}
+  startVector: {x: 100, y: 100}
 --- !u!212 &212856788087404300
 SpriteRenderer:
   m_ObjectHideFlags: 1

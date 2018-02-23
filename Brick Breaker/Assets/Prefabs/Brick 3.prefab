@@ -78,7 +78,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7ee0674a257b2542ab0e2114a256448, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 4
+  sprites:
+  - {fileID: 21300004, guid: 77e0ec33b1030dd40bf87d5019c7e9f5, type: 3}
+  - {fileID: 21300008, guid: 77e0ec33b1030dd40bf87d5019c7e9f5, type: 3}
+  - {fileID: 21300006, guid: 77e0ec33b1030dd40bf87d5019c7e9f5, type: 3}
+  - {fileID: 21300004, guid: 77e0ec33b1030dd40bf87d5019c7e9f5, type: 3}
+  - {fileID: 21300004, guid: 77e0ec33b1030dd40bf87d5019c7e9f5, type: 3}
 --- !u!212 &212407063562718642
 SpriteRenderer:
   m_ObjectHideFlags: 1
