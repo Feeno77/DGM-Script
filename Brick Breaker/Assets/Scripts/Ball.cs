@@ -5,16 +5,13 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
 
     
-        public AudioClip hitSound;
+      
         public Vector2 startVector;
     private void Start()
     {
         GetComponent<Rigidbody2D>().AddForce(startVector, ForceMode2D.Force);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-        {
-            AudioSource.PlayClipAtPoint(hitSound, collision.transform.position);
-        }
+
      
 }

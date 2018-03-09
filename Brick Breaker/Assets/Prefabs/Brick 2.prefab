@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212373778301358394}
   - component: {fileID: 61866404442863196}
   - component: {fileID: 114253805068904758}
+  - component: {fileID: 114408003143760152}
   m_Layer: 8
   m_Name: Brick 2
   m_TagString: Untagged
@@ -84,6 +85,18 @@ MonoBehaviour:
   - {fileID: 21300008, guid: 77e0ec33b1030dd40bf87d5019c7e9f5, type: 3}
   - {fileID: 21300006, guid: 77e0ec33b1030dd40bf87d5019c7e9f5, type: 3}
   - {fileID: 21300004, guid: 77e0ec33b1030dd40bf87d5019c7e9f5, type: 3}
+--- !u!114 &114408003143760152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1017539621221676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cb1639ad34e34e49a73ee9d7bf51116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smackSound: {fileID: 8300000, guid: e925c89589b63494087b1d2e12267bd1, type: 3}
 --- !u!212 &212373778301358394
 SpriteRenderer:
   m_ObjectHideFlags: 1
