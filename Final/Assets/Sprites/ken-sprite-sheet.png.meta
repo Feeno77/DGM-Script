@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 989ab24143549f940a82abc6b83aef9f
+timeCreated: 1521063911
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ken-sprite-sheet_0
+    21300002: ken-sprite-sheet_1
+    21300004: ken-sprite-sheet_2
+    21300006: ken-sprite-sheet_3
+    21300008: ken-sprite-sheet_4
+    21300010: ken-sprite-sheet_5
+    21300012: ken-sprite-sheet_6
+    21300014: ken-sprite-sheet_7
+    21300016: ken-sprite-sheet_8
+    21300018: ken-sprite-sheet_9
+    21300020: ken-sprite-sheet_10
+    21300022: ken-sprite-sheet_11
+    21300024: ken-sprite-sheet_12
+    21300026: ken-sprite-sheet_13
+    21300028: ken-sprite-sheet_14
+    21300030: ken-sprite-sheet_15
+    21300032: ken-sprite-sheet_16
+    21300034: ken-sprite-sheet_17
+    21300036: ken-sprite-sheet_18
+    21300038: ken-sprite-sheet_19
+    21300040: ken-sprite-sheet_20
+    21300042: ken-sprite-sheet_21
+    21300044: ken-sprite-sheet_22
+    21300046: ken-sprite-sheet_23
+    21300048: ken-sprite-sheet_24
+    21300050: ken-sprite-sheet_25
+    21300052: ken-sprite-sheet_26
+    21300054: ken-sprite-sheet_27
+    21300056: ken-sprite-sheet_28
+    21300058: ken-sprite-sheet_29
+    21300060: ken-sprite-sheet_30
+    21300062: ken-sprite-sheet_31
+    21300064: ken-sprite-sheet_32
+    21300066: ken-sprite-sheet_33
+    21300068: ken-sprite-sheet_34
+    21300070: ken-sprite-sheet_35
+    21300072: ken-sprite-sheet_36
+    21300074: ken-sprite-sheet_37
+    21300076: ken-sprite-sheet_38
+    21300078: ken-sprite-sheet_39
+    21300080: ken-sprite-sheet_40
+    21300082: ken-sprite-sheet_41
+    21300084: ken-sprite-sheet_42
+    21300086: ken-sprite-sheet_43
+    21300088: ken-sprite-sheet_44
+    21300090: ken-sprite-sheet_45
+    21300092: ken-sprite-sheet_46
+    21300094: ken-sprite-sheet_47
+    21300096: ken-sprite-sheet_48
+    21300098: ken-sprite-sheet_49
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ken-sprite-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 900
+        width: 95
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 906
+        width: 90
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 903
+        width: 83
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 901
+        width: 90
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 898
+        width: 85
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 901
+        width: 95
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 901
+        width: 87
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 901
+        width: 80
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 905
+        width: 95
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 905
+        width: 85
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 776
+        width: 101
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 776
+        width: 96
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 777
+        width: 80
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 771
+        width: 87
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 777
+        width: 80
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 774
+        width: 78
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 772
+        width: 75
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 772
+        width: 86
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 772
+        width: 91
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 769
+        width: 99
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 764
+        width: 92
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 630
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 634
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 632
+        width: 110
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 634
+        width: 141
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 634
+        width: 136
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 634
+        width: 142
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 634
+        width: 145
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 513
+        width: 128
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 510
+        width: 136
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 521
+        width: 132
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 514
+        width: 118
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 379
+        width: 97
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 382
+        width: 112
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 384
+        width: 93
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 384
+        width: 93
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 376
+        width: 97
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 372
+        width: 114
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 235
+        width: 83
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 239
+        width: 72
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 240
+        width: 89
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 235
+        width: 82
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 247
+        width: 83
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 245
+        width: 89
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 240
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 232
+        width: 80
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 226
+        width: 75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 224
+        width: 75
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_48
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 221
+        width: 81
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ken-sprite-sheet_49
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 400
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

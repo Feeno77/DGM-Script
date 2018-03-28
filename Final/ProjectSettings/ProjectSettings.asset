@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  productGUID: e424a2b8f838dfa45bca31e10d018070
+  productGUID: 0c926953f3548154e9209dbe1adb6d51
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
@@ -586,9 +586,9 @@ PlayerSettings:
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: 34d441d6-a52a-440a-95ce-5d03742eb058
+  projectName: Final
+  organizationId: feeno77
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
