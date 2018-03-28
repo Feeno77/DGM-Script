@@ -39,4 +39,14 @@ public class GameManager : MonoBehaviour {
         Debug.Log("Quit Game");
         Application.Quit();
     }
+    void Update()
+    {
+        {
+            if (Input.GetKey("escape"))
+                Application.Quit();
+
+        }
+    }
 }
+
+
